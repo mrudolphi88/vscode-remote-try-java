@@ -7,6 +7,11 @@ package com.mycompany.app;
 
 public class App {
     public static void main(String[] args) {
+        Car firstCar = new Car();
+        Car muscleCar = new Car("Pontiac", "GTO");
+
         System.out.println("Hello Remote World!");
+        System.out.println("First Car is: " + firstCar.make + "," + firstCar.model);
+        System.out.println("MuscleCar Car is: " + muscleCar.make + "," + muscleCar.model);
     }
 }
